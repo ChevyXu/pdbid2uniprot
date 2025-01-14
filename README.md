@@ -1,7 +1,6 @@
-This script serves for convert PDBID like "5hxb_A" to uniprot ID and Gene Name.
+> This script serves for convert PDBID like "5hxb_A" to uniprot ID and Gene Name.
 
-Features:
-
+## Features:
 #### Concurrent API Requests:
 The script uses ThreadPoolExecutor to process rows concurrently, significantly speeding up execution when handling thousands of rows.
 
